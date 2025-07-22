@@ -46,5 +46,25 @@ body{
  }
  /*Main Movie Section Styleing*/
  main{
-    
- }
+   max-width: 1200px;
+   margin: 0 auto;
+   margin-block: 38px;
+}
+main section{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 70vh;
+}
+
+/*Footer Styling*/
+ footer{
+   text-align:center;
+   background:#232f3e;
+   color: #fff;
+   padding-block: 20px;
+   margin-top:40px;
+   font-size: 20px;
+
+
+}
